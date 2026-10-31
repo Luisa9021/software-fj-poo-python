@@ -83,7 +83,7 @@ def main():
 
     # ----- CLIENTES -----
     ejecutar(1, "Registrar cliente válido",
-             lambda: agregar_cliente(Cliente("C01", "Ana Torres", "ana@correo.com", "3001234567")))
+             lambda: agregar_cliente(Cliente("C01", "Luisa Viviana Rueda Ayala", "lvruedaa@unadvirtual.edu.co", "3005393431")))
     ejecutar(2, "Registrar cliente con correo inválido",
              lambda: agregar_cliente(Cliente("C02", "Luis Pérez", "luis.correo.com", "3109876543")))
     ejecutar(3, "Registrar cliente sin nombre",
